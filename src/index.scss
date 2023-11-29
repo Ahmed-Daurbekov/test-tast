@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #E4E5EA;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  // font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #0E1014 url('./img/bg/purple-ball.png') no-repeat 65% top;
+  
+  // background: #0E1014 url('./img/bg/purple-ball.png') no-repeat 65% top, url('./img/bg/purple-light.png') no-repeat center top;
+//   background-image: url('./img/bg/purple-ball.png'), url('./img/bg/purple-light.png');
+// background-position: right bottom, center top;
+// background-repeat: no-repeat, no-repeat;
+
+  &::-webkit-scrollbar {
+    width: 10px;               /* ширина всей полосы прокрутки */
+    border-left: 1px solid #023047;
+  }
+  
+  &::-webkit-scrollbar-thumb {
+    background-color: #023047;    /* цвет бегунка */
+    border-radius: 20px;       /* округлось бегунка */
+    border: 1px solid #f9f9f9;  /* отступ вокруг бегунка */
+  }
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}

@@ -1,0 +1,132 @@
+.footer {
+  padding-bottom: 20px;
+  
+  &-title {
+    color: #656566;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;    
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    li {
+      a {
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+    }
+  }
+  
+  .top-section {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    @media (max-width: 1070px) {
+      justify-content: space-between;
+    }
+
+    .about {
+      ul {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+    }
+    .contats-footer {
+      ul {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+    }
+    .menu {
+      margin-left: 98px;
+      font-family: 'Inter', sans-serif;
+      
+      @media (max-width: 1070px) {
+        margin-left: unset;
+      }
+
+      @media (max-width: 618px) {
+        margin: 30px 0;
+      }
+
+      .list {
+        display: flex;
+        gap: 52px;
+
+        .right-column {
+          @media (max-width: 1070px) {
+            li:nth-child(2) {
+              max-width: 170px;
+              display: inline-block;
+            }
+          }
+        }
+        
+        .right-column, .left-column {
+          ul {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+          }
+        }
+      }
+    }
+    
+    .contats-footer {
+      margin-left: auto;
+      text-align: right;
+      font-family: 'Inter', sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      line-height: normal;
+      
+      @media (max-width: 1070px) {
+        margin-left: unset;
+        text-align-last: left;
+      }
+      
+      .s-networks {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        gap: 10px;
+
+        @media (max-width: 1070px) {
+          justify-content: start;
+        }
+      }
+    }
+  }
+
+  .bottom-section {
+    margin-top: 30px;
+    text-align: right;
+    font-size: 12px;
+
+    @media (max-width: 1070px) {
+      text-align: center;
+      margin-top: 50px;
+    }
+    
+    p {
+      color: #E4E5EA;
+    }
+
+    a {
+      text-decoration: underline;
+    }
+  }
+}

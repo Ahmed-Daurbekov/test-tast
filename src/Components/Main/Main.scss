@@ -1,0 +1,203 @@
+.main {
+  margin-top: 105px;
+  margin-bottom: 90px;
+  color: #E4E5EA;
+  
+  .small-screen {
+    width: 100%;
+    display: none;
+    li {
+      text-align: left !important;
+      width: unset !important;
+      font-family: Montserrat;
+      font-size: 13px !important;
+      font-style: normal!important;
+      font-weight: 400 !important;
+      line-height: normal !important;
+      letter-spacing: 0.65px !important;
+      text-transform: uppercase !important;
+
+      &::before {
+        content: url('../../img/bg/10.png');
+        position: relative;
+        top: -25%;
+        left: -5px;
+      }
+    }
+    
+    @media (max-width: 425px) {
+      display: flex !important;
+      justify-content: space-between;
+    }
+  }
+  
+  @media (max-width: 740px) {
+    margin-top: 55px;
+    margin-bottom: 50px;
+  }
+  
+  &-columns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+
+    .main-left_column {
+      .left_column-title {
+        max-width: 390px;
+        font-family: Inter;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+
+        @media (max-width: 740px) {
+          text-align: left;
+        }
+
+        @media (max-width: 425px) {
+          font-size: 36px;
+        }
+        
+        span {
+          display: block;
+          text-transform: uppercase;
+          background: linear-gradient(90deg, rgba(252,176,69,1) 17%, rgba(255,63,120,1) 100%);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+      }
+      .left_column-text {
+        max-width: 270px;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        margin-top: 30px;
+        line-height: normal;
+      }
+    }
+
+    .main-right_column {
+      text-align: right;
+      
+      @media (max-width: 740px) {
+        text-align: left;
+      }
+
+      .right_column {
+        &-title {
+          text-align: right;
+          font-family: Inter;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+          max-width: 310px;
+
+          @media (max-width: 740px) {
+            text-align: left;
+          }
+  
+          span {
+            text-transform: uppercase;
+
+            &.first {
+              background: linear-gradient(90deg, rgba(252,176,69,1) 0%, rgba(253,29,29,1) 60%);
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+            }
+
+            &.second {
+              background: linear-gradient(90deg, rgba(252,176,69, 0.9) 70%, rgba(253,29,29,1) 100%);
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+            }
+          }
+        }
+
+        &-list {
+          div {
+            display: flex;
+            justify-content: flex-end;
+            text-align: right;
+            gap: 30px;
+
+            @media (max-width: 740px) {
+              text-align: left;
+            }
+            
+            @media (max-width: 425px) {
+              justify-content: start;
+            }
+    
+          }
+
+          .top-div {
+            margin-top: 40px;
+            
+            @media (max-width: 740px) {
+              margin-top: 20px;
+            }
+          }
+          
+          .bottom-div {
+            margin-top: 30px;
+
+            @media (max-width: 740px) {
+              margin-top: 15px;
+            }
+          }
+          
+          .list-title {
+            width: 140px;
+            font-family: Inter;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: 0.9px;
+            text-transform: uppercase;
+          }
+
+          ul {
+            @media (max-width: 425px) {
+              display: none;
+            }
+            
+            li {
+              width: 135px;
+              font-family: Montserrat;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: normal;
+            }
+          }
+        }
+
+        &-btn {
+          font-family: Inter;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+          cursor: pointer;
+          color: #E4E5EA;
+          background: #4077F3;
+          padding: 21px 34px;
+          margin-top: 60px;
+
+          @media (max-width: 740px) {
+            margin-top: 30px;
+          }
+
+          @media (max-width: 425px) {
+            display: none;
+          }
+  
+        }
+      }
+    }
+  }
+}
