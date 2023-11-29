@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.50b3e1ad.css",
-    "main.js": "/static/js/main.5c6d18b9.js",
-    "static/media/purple-ball.png": "/static/media/purple-ball.74ec876254263f43dbcc.png",
-    "static/media/logo_welbex.svg": "/static/media/logo_welbex.2e08d1bd108cb8b2aee116b1817d851e.svg",
-    "index.html": "/index.html",
-    "main.50b3e1ad.css.map": "/static/css/main.50b3e1ad.css.map",
-    "main.5c6d18b9.js.map": "/static/js/main.5c6d18b9.js.map"
+    "main.css": "/test-task/static/css/main.51cbda24.css",
+    "main.js": "/test-task/static/js/main.2bd75745.js",
+    "static/media/purple-ball.png": "/test-task/static/media/purple-ball.74ec876254263f43dbcc.png",
+    "static/media/logo_welbex.svg": "/test-task/static/media/logo_welbex.2e08d1bd108cb8b2aee116b1817d851e.svg",
+    "index.html": "/test-task/index.html",
+    "main.51cbda24.css.map": "/test-task/static/css/main.51cbda24.css.map",
+    "main.2bd75745.js.map": "/test-task/static/js/main.2bd75745.js.map"
   },
   "entrypoints": [
-    "static/css/main.50b3e1ad.css",
-    "static/js/main.5c6d18b9.js"
+    "static/css/main.51cbda24.css",
+    "static/js/main.2bd75745.js"
   ]
 }
